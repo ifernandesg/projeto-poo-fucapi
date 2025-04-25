@@ -1,12 +1,13 @@
 package com.example.primeiroprojeto.service;
  
 import com.example.primeiroprojeto.model.Tarefa;
+import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
+@Service
 public class TarefaService {
-
 
     private List<Tarefa> tarefas = new ArrayList<>();
 
